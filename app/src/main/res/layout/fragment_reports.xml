@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:background="@color/black"
+    tools:context=".fragment.ReportsFragment">
+
+    <TextView
+        android:id="@+id/reports_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/a_little_bit_less_transparent_radius_10"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:textColor="@color/color_on_primary"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        tools:text="02/7: 17h->22h30 5h30\n08/7: 9h->11h30 2h30\n\nTotal: 8h00" />
+
+    <Button
+        android:id="@+id/reports_copy_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copy" />
+</LinearLayout>

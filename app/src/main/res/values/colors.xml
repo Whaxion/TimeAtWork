@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="almost_transparent">#10FFFFFF</color>
+    <color name="a_little_bit_less_transparent">#20FFFFFF</color>
+    <color name="overlay">#50000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#808080</color>
+    <color name="green">#1C7721</color>
+    <color name="red">#A01C1C</color>
+    <color name="pink">#F5B9A4</color>
+
+    <color name="primary">#0e3273</color>
+    <color name="primary_variant">#284c93</color>
+    <color name="color_on_primary">#d0ffffff</color>
+    <color name="color_on_primary_deselected">#80ffffff</color>
+    <color name="secondary">#0e6473</color>
+    <color name="secondary_variant">#279ab9</color>
+    <color name="color_on_secondary">#d0ffffff</color>
+</resources>

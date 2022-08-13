@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".fragment.CurrentSessionFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_session"
+        android:textColor="@color/color_on_primary"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/start_time"
+            android:textColor="@color/color_on_primary" />
+
+        <TextView
+            android:id="@+id/current_session_start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/color_on_primary"
+            tools:text="18h51" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/current_session_stop_session"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_session" />
+
+    <Button
+        android:id="@+id/current_session_cancel"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel" />
+
+</LinearLayout>

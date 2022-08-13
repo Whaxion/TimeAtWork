@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Time At Work</string>
+    <string name="next">Suivant</string>
+    <string name="previous">Précédent</string>
+    <string name="hours_performed">Heures prestées ce mois</string>
+    <string name="current_total">Total actuel:</string>
+    <string name="add_btn">Ajouter</string>
+    <string name="save">Sauvegarder</string>
+    <string name="cancel">Annuler</string>
+    <string name="calendar">Calendrier</string>
+    <string name="reports">Rapports</string>
+    <string name="change_start_time">Changer l\'heure de début</string>
+    <string name="end_time">Heure de fin:</string>
+    <string name="change_end_time">Changer l\'heure de fin</string>
+    <string name="start_time">Heure de début:</string>
+    <string name="start_session">Démarrer une session</string>
+    <string name="encode_session">Encoder une session</string>
+    <string name="notification_session_stop">Cliquez ici pour arrêter la session</string>
+    <string name="notification_channel_session_description">TODO</string>
+    <string name="current_session">Session en cours</string>
+    <string name="session_unterminated">Session non terminée</string>
+    <string name="stop_session">Arrêter la session</string>
+    <string name="session_ended">Session terminée avec succès!</string>
+    <string name="date">Date:</string>
+    <string name="change_date">Changer la date</string>
+    <string name="delete">Supprimer</string>
+    <string name="current_salary" >Salaire actuel:</string>
+    <string name="copy">Copier</string>
+    <string name="copy_success">Copie dans le presse-papier effectuée avec succès!</string>
+</resources>

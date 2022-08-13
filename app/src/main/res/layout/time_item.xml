@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/time_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:background="@color/almost_transparent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/time_item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:text="Jeudi 08" />
+
+    <TextView
+        android:id="@+id/time_item_start_time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:textColor="@color/gray"
+        app:layout_constraintRight_toLeftOf="@id/time_item_dash"
+        tools:text="18h27" />
+
+    <TextView
+        android:id="@+id/time_item_dash"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:text="-"
+        android:textColor="@color/gray"
+        app:layout_constraintRight_toLeftOf="@id/time_item_end_time"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/time_item_end_time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:textColor="@color/gray"
+        app:layout_constraintRight_toLeftOf="@id/time_item_chevron_right"
+        tools:text="00h31" />
+
+    <ImageView
+        android:id="@+id/time_item_chevron_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_chevron_right"
+        app:layout_constraintRight_toLeftOf="@id/time_item_total_time"
+        app:tint="@color/gray"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/time_item_total_time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:textColor="@color/gray"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="6h04" />
+</androidx.constraintlayout.widget.ConstraintLayout>
